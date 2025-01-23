@@ -1,5 +1,5 @@
 
-const backendDomin = "http://localhost:5000"
+const backendDomin = process.env.REACT_APP_BACKEND_URL       //"http://localhost:5000"
 const SummaryApi = {
     SignUp: {
         url: `${backendDomin}/api/signup`,
