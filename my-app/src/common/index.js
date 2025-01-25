@@ -1,5 +1,5 @@
 
-const backendDomin = https://mern-ecommerce-website-kappa.vercel.app/       //"http://localhost:5000"
+const backendDomin = "http://localhost:5000"
 const SummaryApi = {
     SignUp: {
         url: `${backendDomin}/api/signup`,
