@@ -1,5 +1,5 @@
 
-const backendDomin = https://mern-ecommerce-website-a8mf.onrender.com
+const backendDomin = process.env.BACKEND_URL
 const SummaryApi = {
     SignUp: {
         url: `${backendDomin}/api/signup`,
