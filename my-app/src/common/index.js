@@ -1,5 +1,5 @@
 
-const backendDomin = "http://localhost:5000"
+const backendDomin = https://mern-ecommerce-website-a8mf.onrender.com
 const SummaryApi = {
     SignUp: {
         url: `${backendDomin}/api/signup`,
