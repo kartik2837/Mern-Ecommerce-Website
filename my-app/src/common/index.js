@@ -1,5 +1,5 @@
 
-const backendDomin = process.env.BACKEND_URL
+const backendDomin = "https://mern-ecommerce-website-omega.vercel.app/"
 const SummaryApi = {
     SignUp: {
         url: `${backendDomin}/api/signup`,
