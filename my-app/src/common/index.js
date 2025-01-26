@@ -1,5 +1,5 @@
 
-const backendDomin = "https://mern-ecommerce-website-omega.vercel.app/"
+const backendDomin = "http://localhost:5000"
 const SummaryApi = {
     SignUp: {
         url: `${backendDomin}/api/signup`,
